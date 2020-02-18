@@ -1,0 +1,11 @@
+Use Cases
+  - as a gamer i should be able to go through the wire with a loop
+  - as a gamer i should hear a voice indication when i falter (loop touches the wire) and it should not continue to make noise endlessly
+  - as a gamer i should get an visual indication that i have faltered and it should stay that way endlessly so that everyone knows the game is up
+  - as an admin i should be able to restart the game for another gamer
+  
+Code - uploaded
+Vieo - uploaded
+Circuit - https://www.tinkercad.com/things/5UkWsUZIcnd-spectacular-gogo/editel?tenant=circuits?sharecode=Oao5aIUARIJcEhggu46cWghid8969eLHu3-8y5tZG1g=
+as soon as you connect the purple ends, buzzer goes off and led continuously stays on (not a good way to show on tinkercad, but you'll get it)
+
