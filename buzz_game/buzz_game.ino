@@ -5,8 +5,9 @@ int BUZZERSTATUS = 12;
 
 void setup() {
   pinMode(LED,OUTPUT);
-  pinMode(BUZZER,INPUT);
+  pinMode(BUZZERSTATUS,INPUT);
   Serial.begin(9600);
+  test_buzzer();
 }
 
 void loop() {
@@ -14,7 +15,6 @@ void loop() {
     digitalWrite(LED,HIGH);
     return;
   }
-  test_buzzer();
   if (digitalRead(BUZZERSTATUS) == HIGH) {
     GAMEUP = 1;
   }
